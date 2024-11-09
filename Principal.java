@@ -1,10 +1,3 @@
-
-/**
- * Escreva uma descrição da classe Principal aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
- */
 public class Principal
 {
 
