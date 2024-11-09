@@ -1,10 +1,4 @@
 
-/**
- * Escreva uma descrição da classe TvQuePausa aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
- */
 public class TvQuePausa extends ControleRemoto
 {
     private boolean pausada=false;
