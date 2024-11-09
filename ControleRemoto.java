@@ -1,10 +1,3 @@
-
-/**
- * Escreva uma descrição da classe ControleRemoto aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
- */
 public abstract class ControleRemoto
 {
     private Dispositivo disp;
