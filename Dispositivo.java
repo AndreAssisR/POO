@@ -1,14 +1,5 @@
-
-/**
- * Escreva uma descrição da classe Dispositivo aqui.
- * 
- * @author (seu nome) 
- * @version (um número da versão ou uma data)
- */
-public abstract class Dispositivo
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    public int estado, volume, maximo;
+    public int estado, volume, maximo,canal;
     
     public abstract void botaoCinco();
     public abstract void botaoSeis();
@@ -16,6 +7,13 @@ public abstract class Dispositivo
     public void feedbackDispositivo(){
         if(estado>maximo || estado <0)estado=0;
         System.out.println("Atualmente em: "+estado);
+    }
+    
+    public void botaoSete(){ canal++;
+        System.out.println("Canal : "+canal);
+    }
+    public void botaoSeis(){ canal--;
+        System.out.println("Canal : "+canal);
     }
     
     public void botaoSete(){ volume++;
